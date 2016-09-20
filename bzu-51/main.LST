@@ -1,0 +1,71 @@
+C51 COMPILER V9.01   MAIN                                                                  08/26/2016 15:09:37 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <AT89X52.h>
+   2          #include <intrins.h>
+   3          #include "digital_show.h"
+   4          //#include "stepmotor.h"
+   5          //#include "servo.h"
+   6          #include "ADC0804.h"
+   7          #include "DAC0832.h"
+   8          #include "uart.h"
+   9          
+  10          void setup(){
+  11   1      
+  12   1              //SCON = 0x50;  
+  13   1      //      TMOD = 0x02;
+  14   1      //      TH0  = 256-13;
+  15   1      //      TL0  = 256-13;
+  16   1              //EA   = 1;
+  17   1      //      ET0  = 1;
+  18   1              //TR0 = 1;
+  19   1               
+  20   1      }
+  21          sbit f = P2^7;
+  22          uchar adc_value;
+  23          
+  24          void loop()
+  25          {
+  26   1                         
+  27   1              adc_value = gat_adcValue();
+  28   1              dac_write(adc_value);
+  29   1              Show( adc_value );
+  30   1      
+  31   1      
+  32   1      }
+  33          
+  34          /*************************************************************/
+  35          void main()
+  36          {
+  37   1              //setup();
+  38   1              Uart_Init();
+  39   1              while(1)
+  40   1              {
+  41   2                      loop();
+  42   2              }       
+  43   1      }
+  44          
+  45           
+*** WARNING C316 IN LINE 45 OF main.c: unterminated conditionals
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     24    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      1    ----
+   IDATA SIZE       =   ----    ----
+C51 COMPILER V9.01   MAIN                                                                  08/26/2016 15:09:37 PAGE 2   
+
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

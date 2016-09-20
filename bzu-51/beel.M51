@@ -1,0 +1,112 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        08/07/2016  21:27:27  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE project2.obj, add.obj TO beel RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  project2.obj (PROJECT2)
+  add.obj (ADD)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  beel (PROJECT2)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0002H     UNIT         ?DT?PROJECT2
+            IDATA   000AH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     0003H     ABSOLUTE     
+            CODE    0006H     0020H     UNIT         ?PR?_DELAY?PROJECT2
+            CODE    0026H     0013H     UNIT         ?PR?T0_TIME?PROJECT2
+            CODE    0039H     0011H     UNIT         ?CO?PROJECT2
+            CODE    004AH     000CH     UNIT         ?C_C51STARTUP
+            CODE    0056H     0006H     UNIT         ?PR?MAIN?PROJECT2
+
+
+
+OVERLAY MAP OF MODULE:   beel (PROJECT2)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?PROJECT2
+
+
+
+SYMBOL TABLE OF MODULE:  beel (PROJECT2)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        PROJECT2
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:0090H         PUBLIC        P1
+  D:00B0H         PUBLIC        P3
+  C:0006H         PUBLIC        _delay
+  C:0056H         PUBLIC        main
+BL51 BANKED LINKER/LOCATER V6.22                                                      08/07/2016  21:27:27  PAGE 2
+
+
+  C:0039H         PUBLIC        duan
+  C:0026H         PUBLIC        t0_time
+  D:008CH         PUBLIC        TH0
+  D:008AH         PUBLIC        TL0
+  D:0008H         PUBLIC        num
+  B:0080H.1       PUBLIC        s
+  B:0080H.3       PUBLIC        v
+  -------         PROC          MAIN
+  C:0056H         LINE#         29
+  C:0056H         LINE#         30
+  C:0056H         LINE#         31
+  C:0056H         LINE#         32
+  C:0056H         LINE#         33
+  C:0058H         LINE#         34
+  C:005AH         LINE#         35
+  -------         ENDPROC       MAIN
+  -------         PROC          T0_TIME
+  C:0026H         LINE#         39
+  C:0028H         LINE#         42
+  C:002BH         LINE#         43
+  C:002EH         LINE#         44
+  C:0036H         LINE#         45
+  -------         ENDPROC       T0_TIME
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        t
+  -------         DO            
+  D:0004H         SYMBOL        v
+  -------         ENDDO         
+  C:0006H         LINE#         47
+  C:0006H         LINE#         48
+  C:0006H         LINE#         50
+  C:0011H         LINE#         51
+  C:0025H         LINE#         53
+  -------         ENDPROC       _DELAY
+  -------         ENDMOD        PROJECT2
+
+  -------         MODULE        ADD
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  -------         ENDMOD        ADD
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?PROJECT2
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?PROJECT2
+
+Program Size: data=11.0 xdata=0 code=92
+LINK/LOCATE RUN COMPLETE.  2 WARNING(S),  0 ERROR(S)

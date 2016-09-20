@@ -1,0 +1,11 @@
+"STARTUP.obj",
+"digital_show.obj",
+"main.obj",
+"stepmotor.obj",
+"servo.obj",
+"ADC0804.obj",
+"DAC0832.obj",
+"IR.obj",
+"uart.obj" 
+TO "verdsd" 
+RAMSIZE(256) 

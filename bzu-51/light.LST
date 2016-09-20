@@ -1,0 +1,186 @@
+C51 COMPILER V9.01   LIGHT                                                                 08/08/2016 19:11:59 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE LIGHT
+OBJECT MODULE PLACED IN light.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE light.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<AT89X51.H>
+   2          #include<math.h>
+   3          #include<intrins.h>       //_crol_
+   4          #define uchar unsigned char
+   5          #define uint unsigned int
+   6                     sbit bell=P1^0;
+   7                     sbit l1=P0^1;
+   8                     sbit bells=P0^0;
+   9                     sbit k1=P3^5;
+  10                     sbit k2=P3^4;
+  11                     sbit k3=P3^3;
+  12                     sbit k4=P3^2;
+  13          
+  14          
+  15                     int num;
+  16                     int num1;
+  17          
+  18          void delay(int t);
+  19          void show(char a[8]);
+  20          void t0_time() interrupt 1
+  21          void t1_time() interrupt 3
+*** ERROR C132 IN LINE 21 OF LIGHT.C: 't1_time': not in formal parameter list
+*** ERROR C141 IN LINE 21 OF LIGHT.C: syntax error near 'interrupt'
+  22          
+  23          void delay(int t)                                    //延时，
+  24          {       int i;
+*** ERROR C132 IN LINE 24 OF LIGHT.C: '_delay': not in formal parameter list
+*** ERROR C141 IN LINE 24 OF LIGHT.C: syntax error near '{'
+*** ERROR C136 IN LINE 24 OF LIGHT.C: 'i': 'void' on variable
+*** ERROR C132 IN LINE 24 OF LIGHT.C: 'i': not in formal parameter list
+  25                  for(t;t>0;t--)
+*** ERROR C141 IN LINE 25 OF LIGHT.C: syntax error near 'for'
+*** ERROR C141 IN LINE 25 OF LIGHT.C: syntax error near ';', expected ')'
+*** ERROR C129 IN LINE 25 OF LIGHT.C: missing ';' before '>'
+  26                          for(i=123;i>0;i--)
+  27                          ;
+  28          }
+  29          
+  30          
+  31          void show(char a[8])
+  32          {
+  33                  int i;
+  34                          uchar code duan[]=                                      //数字0~9，
+  35                                 {0x3f,0x06,0x5b,0x4f,
+  36                                      0x66,0x6d,0x7d,0x07,
+  37                                          0x7f,0x6f,0x77,0x7c,
+  38                                          0x39,0x5e,0x79,0x71,0x40};
+  39                      uchar code wei[]=                                      //数码管0~7，
+  40                                 {0x07,0x06,0x05,0x04,
+  41                                      0x03,0x02,0x01,0x00};
+  42                           
+  43                          for(i=0;i<=7;i++)
+  44                          {                                                           
+  45                                  P2=wei[i];
+  46                                  delay(1);
+C51 COMPILER V9.01   LIGHT                                                                 08/08/2016 19:11:59 PAGE 2   
+
+  47                                  P0=duan[a[i]];
+  48                                  delay(1);
+  49                                  P0=0x00;
+  50                           }
+  51                    
+  52          }
+  53                  char a[8];      
+  54          void main()
+  55          {         
+  56                  int i,j;
+  57                  int n=0,n1=0,n2;
+  58          
+  59                  int t1;
+  60                            
+  61                            
+  62                            TMOD=0x01;
+  63                            TH0=(65536-45872)/256;
+  64                            TL0=(65536-45872)%256;
+  65          
+  66                        TH1=(65536-45872)/256;
+  67                            TL1=(65536-45872)%256;
+  68          
+  69                            EA=1;                           // 开启总中断
+  70          
+  71                            ET1=1;
+  72                            TR1=1;
+  73          
+  74                            ET0=1;                                //开启t0中断
+  75                            TR0=1;                                  //打开定时器
+  76          
+  77                  k4=0;
+  78          
+  79                  while(1)        
+  80                  {
+  81                  
+  82          
+  83                                   if(num>=21)
+  84                                   {
+  85                                          num=0;
+  86                                          n++;
+  87                                   }
+  88          
+  89                                   if(num1>=1)
+  90                                   {
+  91                                   
+  92                                          num1=0;
+  93                                  t1++;
+  94                                      if(t1>=3)
+  95                                      t1=0;
+  96                                   }
+  97                          
+  98                                   
+  99                                    
+ 100                          
+ 101                                  a[0]=(n1-n1%10)/10;
+ 102                                  a[1]=n1%10;
+ 103                                  a[2]=16;
+ 104                                  a[3]=(n-n%10)/10;                                                         //十位
+ 105                                  a[4]=n%10;                                                            //个位
+ 106                                  a[5]=16;
+ 107                                  a[6]=16;
+ 108                                  a[7]=n2;
+C51 COMPILER V9.01   LIGHT                                                                 08/08/2016 19:11:59 PAGE 3   
+
+ 109          
+ 110          
+ 111          
+ 112          
+ 113          
+ 114                                  
+ 115                                  if(n>=60)
+ 116                             {
+ 117                                     n=0;
+ 118                                     ++n1;
+ 119                             }
+ 120                             
+ 121                             if(n1>=60)
+ 122                                  {
+ 123                                    n1=0;
+ 124                                  }       
+ 125                  
+ 126                                  if(n%2==1)
+ 127                                  k2=1;
+ 128                                  if(n%2==0)
+ 129                                  k2=0;
+ 130                  
+ 131                                   
+ 132                           if(k1==0)
+ 133                           
+ 134                                  {if(k1==1)
+ 135                                   k1=1;
+ 136                                   n2++;
+ 137                                  }
+ 138          
+ 139                           if(n2==9)
+ 140                                  n2=0;
+ 141          
+ 142          
+ 143                  }                        
+ 144          }
+ 145                    void t0_time() interrupt 1
+ 146                    {
+ 147                    
+ 148                       TH0=(65536-45872)/256;
+ 149                           TL0=(65536-45872)%256;
+ 150                           show(a);
+ 151                           num++;
+ 152          
+ 153                    }
+ 154          
+ 155          
+ 156                    void t1_time() interrupt 3
+ 157                    {
+ 158                          TH1=(65536-45872)/256;
+ 159                          TH1=(65536-45872)%256;
+ 160                          num1++;
+ 161                    
+ 162                    }
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  9 ERROR(S)

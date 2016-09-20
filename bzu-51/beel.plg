@@ -1,0 +1,228 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\a-w\keil\beel.uvproj
+Project File Date:  01/29/2015
+
+<h2>Output:</h2>
+compiling light.c...
+LIGHT.C(21): error C132: 't1_time': not in formal parameter list
+LIGHT.C(21): error C141: syntax error near 'interrupt'
+LIGHT.C(24): error C132: '_delay': not in formal parameter list
+LIGHT.C(24): error C141: syntax error near '{'
+LIGHT.C(24): error C136: 'i': 'void' on variable
+LIGHT.C(24): error C132: 'i': not in formal parameter list
+LIGHT.C(25): error C141: syntax error near 'for'
+LIGHT.C(25): error C141: syntax error near ';', expected ')'
+LIGHT.C(25): error C129: missing ';' before '>'
+light.c - 9 Error(s), 0 Warning(s).
+compiling light.c...
+LIGHT.C(21): error C132: 't1_time': not in formal parameter list
+LIGHT.C(21): error C141: syntax error near 'interrupt'
+LIGHT.C(24): error C132: '_delay': not in formal parameter list
+LIGHT.C(24): error C141: syntax error near '{'
+LIGHT.C(24): error C136: 'i': 'void' on variable
+LIGHT.C(24): error C132: 'i': not in formal parameter list
+LIGHT.C(25): error C141: syntax error near 'for'
+LIGHT.C(25): error C141: syntax error near ';', expected ')'
+LIGHT.C(25): error C129: missing ';' before '>'
+light.c - 9 Error(s), 0 Warning(s).
+compiling light.c...
+LIGHT.C(21): error C132: 't1_time': not in formal parameter list
+LIGHT.C(21): error C141: syntax error near 'interrupt'
+LIGHT.C(24): error C132: '_delay': not in formal parameter list
+LIGHT.C(24): error C141: syntax error near '{'
+LIGHT.C(24): error C136: 'i': 'void' on variable
+LIGHT.C(24): error C132: 'i': not in formal parameter list
+LIGHT.C(25): error C141: syntax error near 'for'
+LIGHT.C(25): error C141: syntax error near ';', expected ')'
+LIGHT.C(25): error C129: missing ';' before '>'
+light.c - 9 Error(s), 0 Warning(s).
+compiling light.c...
+LIGHT.C(21): error C132: 't1_time': not in formal parameter list
+LIGHT.C(21): error C141: syntax error near 'interrupt'
+LIGHT.C(24): error C132: '_delay': not in formal parameter list
+LIGHT.C(24): error C141: syntax error near '{'
+LIGHT.C(24): error C136: 'i': 'void' on variable
+LIGHT.C(24): error C132: 'i': not in formal parameter list
+LIGHT.C(25): error C141: syntax error near 'for'
+LIGHT.C(25): error C141: syntax error near ';', expected ')'
+LIGHT.C(25): error C129: missing ';' before '>'
+light.c - 9 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling light.c...
+LIGHT.C(21): error C132: 't1_time': not in formal parameter list
+LIGHT.C(21): error C141: syntax error near 'interrupt'
+LIGHT.C(24): error C132: '_delay': not in formal parameter list
+LIGHT.C(24): error C141: syntax error near '{'
+LIGHT.C(24): error C136: 'i': 'void' on variable
+LIGHT.C(24): error C132: 'i': not in formal parameter list
+LIGHT.C(25): error C141: syntax error near 'for'
+LIGHT.C(25): error C141: syntax error near ';', expected ')'
+LIGHT.C(25): error C129: missing ';' before '>'
+Target not created
+Build target 'Target 1'
+compiling light.c...
+LIGHT.C(21): error C132: 't1_time': not in formal parameter list
+LIGHT.C(21): error C141: syntax error near 'interrupt'
+LIGHT.C(24): error C132: '_delay': not in formal parameter list
+LIGHT.C(24): error C141: syntax error near '{'
+LIGHT.C(24): error C136: 'i': 'void' on variable
+LIGHT.C(24): error C132: 'i': not in formal parameter list
+LIGHT.C(25): error C141: syntax error near 'for'
+LIGHT.C(25): error C141: syntax error near ';', expected ')'
+LIGHT.C(25): error C129: missing ';' before '>'
+Target not created
+compiling light.c...
+LIGHT.C(20): error C141: syntax error near ';'
+LIGHT.C(21): error C141: syntax error near ';'
+light.c - 2 Error(s), 0 Warning(s).
+compiling light.c...
+LIGHT.C(20): error C141: syntax error near ';'
+LIGHT.C(21): error C141: syntax error near ';'
+light.c - 2 Error(s), 0 Warning(s).
+compiling light.c...
+LIGHT.C(20): error C141: syntax error near ';'
+LIGHT.C(21): error C141: syntax error near ';'
+light.c - 2 Error(s), 0 Warning(s).
+compiling light.c...
+LIGHT.C(20): error C141: syntax error near ';'
+LIGHT.C(21): error C141: syntax error near ';'
+light.c - 2 Error(s), 0 Warning(s).
+compiling light.c...
+LIGHT.C(21): error C132: 't1_time': not in formal parameter list
+LIGHT.C(21): error C141: syntax error near 'interrupt'
+LIGHT.C(24): error C132: '_delay': not in formal parameter list
+LIGHT.C(24): error C141: syntax error near '{'
+LIGHT.C(24): error C136: 'i': 'void' on variable
+LIGHT.C(24): error C132: 'i': not in formal parameter list
+LIGHT.C(25): error C141: syntax error near 'for'
+LIGHT.C(25): error C141: syntax error near ';', expected ')'
+LIGHT.C(25): error C129: missing ';' before '>'
+light.c - 9 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(27): warning C280: 'j': unreferenced local variable
+PROJECT2.C(27): warning C280: 'k': unreferenced local variable
+project2.c - 0 Error(s), 2 Warning(s).
+compiling project2.c...
+PROJECT2.C(7): error C146: 'P1_0': invalid base address
+project2.c - 1 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(7): error C146: 'P1_0': invalid base address
+project2.c - 1 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(6): error C247: non-address/-constant initializer
+project2.c - 1 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(6): error C247: non-address/-constant initializer
+project2.c - 1 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(6): error C247: non-address/-constant initializer
+project2.c - 1 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(6): error C247: non-address/-constant initializer
+project2.c - 1 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(6): error C146: 'P': invalid base address
+project2.c - 1 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(27): warning C280: 'j': unreferenced local variable
+PROJECT2.C(27): warning C280: 'k': unreferenced local variable
+project2.c - 0 Error(s), 2 Warning(s).
+compiling project2.c...
+PROJECT2.C(31): error C202: 'uint32_t': undefined identifier
+PROJECT2.C(31): error C141: syntax error near 'r'
+project2.c - 2 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(31): error C202: 'uint32_t': undefined identifier
+PROJECT2.C(31): error C141: syntax error near 'r'
+project2.c - 2 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(27): warning C280: 'j': unreferenced local variable
+PROJECT2.C(27): warning C280: 'k': unreferenced local variable
+project2.c - 0 Error(s), 2 Warning(s).
+compiling project2.c...
+PROJECT2.C(27): error C247: non-address/-constant initializer
+project2.c - 1 Error(s), 0 Warning(s).
+compiling project2.c...
+PROJECT2.C(27): error C202: 'p1': undefined identifier
+project2.c - 1 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling project2.c...
+PROJECT2.C(27): error C247: non-address/-constant initializer
+compiling add.c...
+Target not created
+Build target 'Target 1'
+compiling project2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?PROJECT2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?PROJECT2
+Program Size: data=11.0 xdata=0 code=102
+creating hex file from "beel"...
+"beel" - 0 Error(s), 2 Warning(s).
+compiling project2.c...
+project2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling project2.c...
+PROJECT2.C(32): error C202: 'p1': undefined identifier
+Target not created
+compiling project2.c...
+project2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?PROJECT2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?PROJECT2
+Program Size: data=11.0 xdata=0 code=90
+creating hex file from "beel"...
+"beel" - 0 Error(s), 2 Warning(s).
+compiling project2.c...
+PROJECT2.C(28): error C231: 's': redefinition
+PROJECT2.C(34): error C202: 'v': undefined identifier
+project2.c - 2 Error(s), 0 Warning(s).
+compiling project2.c...
+project2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?PROJECT2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?PROJECT2
+Program Size: data=11.0 xdata=0 code=92
+creating hex file from "beel"...
+"beel" - 0 Error(s), 2 Warning(s).
+compiling project2.c...
+project2.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?PROJECT2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?PROJECT2
+Program Size: data=11.0 xdata=0 code=92
+creating hex file from "beel"...
+"beel" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?PROJECT2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?PROJECT2
+Program Size: data=11.0 xdata=0 code=92
+creating hex file from "beel"...
+"beel" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling project2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?PROJECT2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?PROJECT2
+Program Size: data=11.0 xdata=0 code=92
+creating hex file from "beel"...
+"beel" - 0 Error(s), 2 Warning(s).
