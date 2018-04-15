@@ -1,0 +1,7 @@
+"STARTUP.obj",
+"main.obj",
+"pos_control.obj",
+"uart.obj",
+"std_io.obj" 
+TO "servo_test" 
+RAMSIZE(256) 

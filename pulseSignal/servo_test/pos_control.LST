@@ -1,0 +1,249 @@
+C51 COMPILER V9.01   POS_CONTROL                                                           04/16/2018 06:36:23 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE POS_CONTROL
+OBJECT MODULE PLACED IN pos_control.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE pos_control.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include "pos_control.h"
+   2          
+   3          
+   4          uint_16 countTimer_1 = 0;
+   5          uint_16 countTimer_2 = 0;
+   6          
+   7          bool    run_flag = true;
+   8          
+   9          void unitTestAbsoluteRotationValue(uint_16 pulse_value)
+  10          {
+  11   1              //initMotor();
+  12   1              uint_16 index;
+  13   1              for (index = 0; index < pulse_value; index ++)
+  14   1              {
+  15   2                      pin_m1_pulse = ~pin_m1_pulse;
+  16   2                      pin_m2_pulse = ~pin_m2_pulse;
+  17   2                      pin_m3_pulse = ~pin_m3_pulse;
+  18   2      
+  19   2                      pin_m1_pulse = ~pin_m1_pulse;
+  20   2                      pin_m2_pulse = ~pin_m2_pulse;
+  21   2                      pin_m3_pulse = ~pin_m3_pulse;           
+  22   2              }       
+  23   1      }
+  24          
+  25          void initAlarmSystem()
+  26          {
+  27   1              pin_m1_error = 1;
+  28   1              pin_m2_error = 1;
+  29   1              pin_m3_error = 1;
+  30   1      
+  31   1      }
+  32          uint_8 initialCheck()
+  33          {
+  34   1              if (pin_m1_sign == 0) return 1;
+  35   1              if (pin_m2_sign == 0) return 2;
+  36   1              if (pin_m3_sign == 0) return 3;
+  37   1              return 4;
+  38   1      }
+  39          
+  40          uint_8 checkMotorError()
+  41          {               
+  42   1                initAlarmSystem();                             
+  43   1              if (!pin_m1_error)      {               return 1; }
+  44   1              if (!pin_m2_error)      {               return 2; }
+  45   1              if (!pin_m3_error)      {               return 3; }
+  46   1              return 0;
+  47   1      }
+  48          uint_16 getCounter()
+  49          {
+  50   1              uint_16 value = 0x0000;
+  51   1              uint_16 temp  = 0x0000;
+  52   1              value = _getkey();
+  53   1              temp  = _getkey();
+  54   1      
+  55   1              value = 0x00ff&value;
+C51 COMPILER V9.01   POS_CONTROL                                                           04/16/2018 06:36:23 PAGE 2   
+
+  56   1              temp  = 0x00ff&temp;
+  57   1      
+  58   1              value = (value<<8)|temp;
+  59   1              //putchar(value>>8);
+  60   1              put_buf(value>>8);
+  61   1              put_buf(value);
+  62   1              return value;
+  63   1      }
+  64          bool initAllMotor()
+  65          {
+  66   1              if ( initMotor_1() != 0) return -1;
+  67   1              if ( initMotor_2() != 0) return -1;
+  68   1              return 0;
+  69   1      }
+  70          
+  71          bool allInRange()
+  72          {
+  73   1              if (inRange_1() == true && inRange_2 == true )
+  74   1              return true;
+  75   1              else return false; 
+  76   1      }
+  77          
+  78          bool resetAllMotor()
+  79          {
+  80   1              if(inRange_1() == false || inRange_2() == false ) return false;
+  81   1              else
+  82   1              {
+  83   2                      initMotor_1();
+  84   2                      initMotor_2();
+  85   2                      run_flag = true;
+  86   2                      return true;
+  87   2              }
+  88   1      }
+  89          /***********************************************************
+  90          * motor 1 control param
+  91          ***********************************************************/
+  92          
+  93          bool initMotor_1()
+  94          {
+  95   1              pin_m1_pulse = 1;
+  96   1              pin_m1_sign  = 1;
+  97   1              pin_m1_error = 1;
+  98   1                                                               
+  99   1              TMOD |= 0x01;
+ 100   1              TH0 = 0;
+ 101   1              TL0 = 0;
+ 102   1              EA  = 1;
+ 103   1              ET0 = 1;
+ 104   1              TR0 = 0; // 定时器关闭
+ 105   1              return 0;
+ 106   1      }
+ 107          
+ 108          bool inRange_1()
+ 109          {
+ 110   1              if (pin_m1_range_0 == 1 && pin_m1_range_1 == 1) 
+ 111   1                      return true;
+ 112   1              else
+ 113   1              {
+ 114   2                      TR0              = 0;
+ 115   2                      run_flag = false;
+ 116   2                      return false;
+ 117   2              }
+C51 COMPILER V9.01   POS_CONTROL                                                           04/16/2018 06:36:23 PAGE 3   
+
+ 118   1      }
+ 119          
+ 120          void setDirection_1(uint_8 flag)
+ 121          {
+ 122   1              if ( flag               == 0x00 )
+ 123   1              pin_m1_sign     = 1;
+ 124   1              else if (flag   == 0x01) 
+ 125   1              pin_m1_sign     = 0;
+ 126   1              put_buf(flag);
+ 127   1      }
+ 128          
+ 129          void startMotor_1()
+ 130          {
+ 131   1              if (run_flag == 1) TR0          = 1;
+ 132   1      }
+ 133          
+ 134          void closeMotor_1()
+ 135          {
+ 136   1              TR0             = 0;
+ 137   1              pin_led_7       = 1;
+ 138   1      }
+ 139          
+ 140          void updateServo_1(uint_16 ultraData)
+ 141          {
+ 142   1              //pin_led_8 = ~pin_led_8;
+ 143   1              countTimer_1 = ultraData;
+ 144   1      }
+ 145          
+ 146          void MultiServoInterrupt_1() interrupt 1         using 3
+ 147          {
+ 148   1              TH0 = countTimer_1>>8;
+ 149   1              TL0 = (countTimer_1<<8)>>8;
+ 150   1              pin_m1_pulse = ~pin_m1_pulse;
+ 151   1              pin_led_7 = ~pin_led_7;
+ 152   1      }
+ 153          
+ 154          
+ 155          /***********************************************************
+ 156          * motor 2 control param
+ 157          ***********************************************************/
+ 158          
+ 159          bool initMotor_2()
+ 160          {
+ 161   1              pin_m2_pulse = 1;
+ 162   1              pin_m2_sign  = 1;
+ 163   1              pin_m2_error = 1;
+ 164   1                                                                       
+ 165   1              TMOD |= 0x10;
+ 166   1              TH1 = 0;
+ 167   1              TL1 = 0;
+ 168   1              EA  = 1;
+ 169   1              ET1 = 1;
+ 170   1              TR1 = 0; // 定时器关闭
+ 171   1              return 0;
+ 172   1      }
+ 173                                          
+ 174          bool inRange_2()
+ 175          {
+ 176   1              if (pin_m2_range_0 == 1 && pin_m2_range_1 == 1) 
+ 177   1                      return true;
+ 178   1              else
+ 179   1              {
+C51 COMPILER V9.01   POS_CONTROL                                                           04/16/2018 06:36:23 PAGE 4   
+
+ 180   2                      TR1 = 0;                //shutdown motor 2
+ 181   2                      run_flag = false;
+ 182   2                      return false;
+ 183   2              }
+ 184   1      }
+ 185          
+ 186          
+ 187          void setDirection_2(uint_8 flag)
+ 188          {
+ 189   1              if ( flag               == 0x00 )
+ 190   1              pin_m2_sign     = 1;
+ 191   1              else if (flag   == 0x01) 
+ 192   1              pin_m2_sign     = 0;
+ 193   1              put_buf(flag);
+ 194   1      }
+ 195          
+ 196          void startMotor_2()
+ 197          {
+ 198   1              if (run_flag == 1) TR1          = 1;
+ 199   1      }
+ 200          
+ 201          void closeMotor_2()
+ 202          {
+ 203   1              TR1             = 0;
+ 204   1              pin_led_8       = 1;
+ 205   1      }
+ 206          
+ 207          void updateServo_2(uint_16 ultraData)
+ 208          {
+ 209   1              //pin_led_8 = ~pin_led_8;
+ 210   1              countTimer_2 = ultraData;
+ 211   1      }
+ 212          
+ 213          void MultiServoInterrupt_2() interrupt 3         using 3
+ 214          {
+ 215   1              TH1 = countTimer_2>>8;
+ 216   1              TL1 = (countTimer_2<<8)>>8;
+ 217   1              pin_m2_pulse = ~pin_m2_pulse;
+ 218   1              pin_led_8 = ~pin_led_8;
+ 219   1      }
+ 220           
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    357    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      1    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

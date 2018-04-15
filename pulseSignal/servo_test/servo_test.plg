@@ -1,0 +1,2061 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\a-w\keil\project\servo_test\servo_test.uvproj
+Project File Date:  04/10/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+UART.C(145): error C202: 'AUXR': undefined identifier
+UART.C(146): error C202: 'AUXR': undefined identifier
+uart.c(160): warning C316: unterminated conditionals
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(160): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=792
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(158): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=795
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(158): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=795
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(158): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=795
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(152): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=799
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=788
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=788
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(157): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=792
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(160): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=798
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(160): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=795
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(160): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=795
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=792
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(108): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+Program Size: data=193.4 xdata=0 code=789
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(71): warning C206: 'startMotor': missing function-prototype
+MAIN.C(85): warning C206: 'closeMotor': missing function-prototype
+MAIN.C(130): warning C206: 'initMotor': missing function-prototype
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+POS_CONTROL.C(96): error C202: 'countTimer': undefined identifier
+POS_CONTROL.C(101): error C202: 'countTimer': undefined identifier
+POS_CONTROL.C(102): error C202: 'countTimer': undefined identifier
+POS_CONTROL.C(152): error C202: 'countTimer_2': undefined identifier
+POS_CONTROL.C(157): error C202: 'countTimer_2': undefined identifier
+POS_CONTROL.C(158): error C202: 'countTimer_2': undefined identifier
+pos_control.c(162): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(71): warning C206: 'startMotor': missing function-prototype
+MAIN.C(85): warning C206: 'closeMotor': missing function-prototype
+MAIN.C(130): warning C206: 'initMotor': missing function-prototype
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(164): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _SETDIRECTION
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 02D0H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SETDIRECTION
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0164H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+Program Size: data=195.4 xdata=0 code=867
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(71): warning C206: 'startMotor': missing function-prototype
+MAIN.C(85): warning C206: 'closeMotor': missing function-prototype
+MAIN.C(130): warning C206: 'initMotor': missing function-prototype
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(153): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _SETDIRECTION
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 02C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SETDIRECTION
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0164H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+Program Size: data=195.4 xdata=0 code=855
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 29 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(71): warning C206: 'startMotor': missing function-prototype
+MAIN.C(85): warning C206: 'closeMotor': missing function-prototype
+MAIN.C(89): warning C206: 'setDirection': missing function-prototype
+MAIN.C(89): error C267: 'setDirection': requires ANSI-style prototype
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(153): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(71): warning C206: 'startMotor': missing function-prototype
+MAIN.C(85): warning C206: 'closeMotor': missing function-prototype
+MAIN.C(130): warning C206: 'initMotor': missing function-prototype
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(153): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 02C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+Program Size: data=195.4 xdata=0 code=855
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 26 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(71): warning C206: 'startMotor': missing function-prototype
+MAIN.C(85): warning C206: 'closeMotor': missing function-prototype
+MAIN.C(130): warning C206: 'initMotor': missing function-prototype
+main.c(137): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(153): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 02C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+Program Size: data=195.4 xdata=0 code=855
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 26 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(21): warning C206: 'delayMs': missing function-prototype
+MAIN.C(21): error C267: 'delayMs': requires ANSI-style prototype
+main.c(132): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(153): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling stdio.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(29): warning C206: 'startMotor': missing function-prototype
+MAIN.C(43): warning C206: 'closeMotor': missing function-prototype
+MAIN.C(74): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(87): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(88): warning C206: 'initMotor': missing function-prototype
+MAIN.C(89): warning C206: 'initLed': missing function-prototype
+main.c(95): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(153): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling stdio.c...
+stdio.c(46): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STDIO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 02B2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+Program Size: data=195.4 xdata=0 code=855
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 30 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(29): warning C206: 'startMotor': missing function-prototype
+MAIN.C(43): warning C206: 'closeMotor': missing function-prototype
+MAIN.C(74): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(87): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(88): warning C206: 'initMotor': missing function-prototype
+MAIN.C(89): warning C206: 'initLed': missing function-prototype
+main.c(95): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(153): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling stdio.c...
+stdio.c(46): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STDIO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 02B2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+Program Size: data=195.4 xdata=0 code=855
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 30 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(10): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(11): warning C206: 'initMotor': missing function-prototype
+MAIN.C(12): warning C206: 'initLed': missing function-prototype
+MAIN.C(14): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+main.c(75): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(169): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling stdio.c...
+stdio.c(46): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STDIO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+Program Size: data=193.4 xdata=0 code=841
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 28 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(10): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(11): warning C206: 'initMotor': missing function-prototype
+MAIN.C(12): warning C206: 'initLed': missing function-prototype
+MAIN.C(14): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+main.c(75): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(169): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling stdio.c...
+stdio.c(46): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STDIO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+Program Size: data=193.4 xdata=0 code=841
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 28 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(10): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(11): warning C206: 'initMotor': missing function-prototype
+MAIN.C(12): warning C206: 'initLed': missing function-prototype
+MAIN.C(14): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+main.c(75): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(169): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling stdio.c...
+stdio.c(46): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STDIO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+Program Size: data=193.4 xdata=0 code=841
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 28 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(10): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(11): warning C206: 'initMotor': missing function-prototype
+MAIN.C(12): warning C206: 'initLed': missing function-prototype
+MAIN.C(14): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+main.c(75): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(169): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling stdio.c...
+stdio.c(1): error C318: can't open file 'stdio.c'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(10): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(11): warning C206: 'initMotor': missing function-prototype
+MAIN.C(12): warning C206: 'initLed': missing function-prototype
+MAIN.C(14): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+main.c(75): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(169): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling std_io.c...
+std_io.c(46): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+Program Size: data=193.4 xdata=0 code=841
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 28 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(10): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(11): warning C206: 'initMotor': missing function-prototype
+MAIN.C(12): warning C206: 'initLed': missing function-prototype
+MAIN.C(14): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+main.c(75): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(174): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling std_io.c...
+std_io.c(46): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITALLMOTOR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0172H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+Program Size: data=193.4 xdata=0 code=855
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 27 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(10): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(12): warning C206: 'initLed': missing function-prototype
+MAIN.C(14): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+main.c(75): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(174): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling std_io.c...
+std_io.c(46): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+Program Size: data=193.4 xdata=0 code=853
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 23 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(10): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(12): warning C206: 'initLed': missing function-prototype
+MAIN.C(14): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+main.c(75): warning C316: unterminated conditionals
+compiling pos_control.c...
+pos_control.c(174): warning C316: unterminated conditionals
+compiling uart.c...
+uart.c(155): warning C316: unterminated conditionals
+compiling std_io.c...
+std_io.c(46): warning C316: unterminated conditionals
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+Program Size: data=193.4 xdata=0 code=853
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 23 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(10): warning C206: 'sucessBeep': missing function-prototype
+MAIN.C(12): warning C206: 'initLed': missing function-prototype
+MAIN.C(14): warning C206: 'alarmSystem': missing function-prototype
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+Program Size: data=193.4 xdata=0 code=853
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 19 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(26): warning C206: 'startMotor': missing function-prototype
+MAIN.C(28): warning C206: 'closeMotor': missing function-prototype
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STARTMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0155H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOSEMOTOR
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0158H
+Program Size: data=193.4 xdata=0 code=853
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 16 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=853
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=853
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(29): warning C206: 'cloaeMotor_2': missing function-prototype
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  CLOAEMOTOR_2
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  CLOAEMOTOR_2
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 015EH
+Program Size: data=193.4 xdata=0 code=859
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=859
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=853
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLOSEMOTOR_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UPDATESERVO_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=853
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=866
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=866
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETDIRECTION_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=866
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=900
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=895
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=895
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=932
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=932
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.4 xdata=0 code=895
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(63): error C202: 'pin_m2_error': undefined identifier
+compiling pos_control.c...
+POS_CONTROL.C(26): error C202: 'pin_m2_error': undefined identifier
+POS_CONTROL.C(42): error C202: 'pin_m2_error': undefined identifier
+POS_CONTROL.C(130): error C202: 'pin_m2_error': undefined identifier
+POS_CONTROL.C(152): error C202: 'run_falg': undefined identifier
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(63): error C202: 'pin_m2_error': undefined identifier
+compiling pos_control.c...
+POS_CONTROL.C(26): error C202: 'pin_m2_error': undefined identifier
+POS_CONTROL.C(42): error C202: 'pin_m2_error': undefined identifier
+POS_CONTROL.C(130): error C202: 'pin_m2_error': undefined identifier
+POS_CONTROL.C(152): error C202: 'run_falg': undefined identifier
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+COM_DEFINE.H(16): error C231: 'pin_m2_range_1': redefinition
+compiling pos_control.c...
+COM_DEFINE.H(16): error C231: 'pin_m2_range_1': redefinition
+POS_CONTROL.C(152): error C202: 'run_falg': undefined identifier
+compiling uart.c...
+COM_DEFINE.H(16): error C231: 'pin_m2_range_1': redefinition
+compiling std_io.c...
+COM_DEFINE.H(16): error C231: 'pin_m2_range_1': redefinition
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+POS_CONTROL.C(152): error C202: 'run_falg': undefined identifier
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.6 xdata=0 code=905
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.6 xdata=0 code=905
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+POS_CONTROL.C(88): error C141: syntax error near 'and'
+POS_CONTROL.C(88): error C202: 'and': undefined identifier
+POS_CONTROL.C(88): error C141: syntax error near ')'
+POS_CONTROL.C(90): error C141: syntax error near 'else'
+POS_CONTROL.C(150): error C141: syntax error near 'and'
+POS_CONTROL.C(150): error C202: 'and': undefined identifier
+POS_CONTROL.C(150): error C141: syntax error near ')'
+POS_CONTROL.C(152): error C141: syntax error near 'else'
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INRANGE_1?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INRANGE_2?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.6 xdata=0 code=925
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+POS_CONTROL.C(71): error C141: syntax error near ')'
+POS_CONTROL.C(72): error C141: syntax error near '}'
+POS_CONTROL.C(98): error C202: 'run_flag': undefined identifier
+POS_CONTROL.C(114): error C202: 'run_flag': undefined identifier
+POS_CONTROL.C(180): error C202: 'run_flag': undefined identifier
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+POS_CONTROL.C(71): error C141: syntax error near ')'
+POS_CONTROL.C(72): error C141: syntax error near '}'
+POS_CONTROL.C(164): error C202: 'run_Flag_2': undefined identifier
+POS_CONTROL.C(181): error C202: 'run_flag_2': undefined identifier
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+POS_CONTROL.C(71): error C141: syntax error near ')'
+POS_CONTROL.C(72): error C141: syntax error near '}'
+POS_CONTROL.C(164): error C202: 'run_flag_2': undefined identifier
+POS_CONTROL.C(181): error C202: 'run_flag_2': undefined identifier
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+POS_CONTROL.C(71): error C141: syntax error near ')'
+POS_CONTROL.C(72): error C141: syntax error near '}'
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+POS_CONTROL.C(73): error C141: syntax error near 'else', expected ';'
+POS_CONTROL.C(74): error C141: syntax error near '}', expected ';'
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_2
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_1
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=194.0 xdata=0 code=953
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_2
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_1
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=194.0 xdata=0 code=953
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_2
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_1
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=194.0 xdata=0 code=953
+Target not created
+compiling pos_control.c...
+pos_control.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_2
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_1
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=194.0 xdata=0 code=953
+Target not created
+compiling pos_control.c...
+pos_control.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_2
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_1
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=194.0 xdata=0 code=953
+Target not created
+compiling pos_control.c...
+pos_control.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling std_io.c...
+std_io.c - 0 Error(s), 0 Warning(s).
+compiling std_io.c...
+std_io.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_2
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_1
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=194.0 xdata=0 code=953
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+POS_CONTROL.C(166): error C202: 'run_flag_2': undefined identifier
+POS_CONTROL.C(183): error C202: 'run_flag_2': undefined identifier
+compiling uart.c...
+compiling std_io.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_2
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG_1
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=194.0 xdata=0 code=953
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  RUN_FLAG
+    MODULE:  pos_control.obj (POS_CONTROL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.6 xdata=0 code=949
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.5 xdata=0 code=947
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.5 xdata=0 code=947
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling pos_control.c...
+compiling uart.c...
+compiling std_io.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UNITTESTABSOLUTEROTATIONVALUE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHECKMOTORERROR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ALLINRANGE?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RESETALLMOTOR?POS_CONTROL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUTCHAR?UART
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SENDPING?STD_IO
+Program Size: data=193.5 xdata=0 code=969
+creating hex file from "servo_test"...
+"servo_test" - 0 Error(s), 6 Warning(s).
